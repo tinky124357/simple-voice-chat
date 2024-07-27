@@ -31,7 +31,7 @@ public class ServerConfig {
         builder.header(String.format("%s server config v%s", CommonCompatibilityManager.INSTANCE.getModName(), CommonCompatibilityManager.INSTANCE.getModVersion()));
 
         voiceChatPort = builder
-                .integerEntry("port", 24454, -1, 65535,
+                .integerEntry("port", 25575, -1, 65535,
                         "The port of the voice chat server",
                         "Setting this to \"-1\" sets the port to the Minecraft servers port (Not recommended)"
                 );
